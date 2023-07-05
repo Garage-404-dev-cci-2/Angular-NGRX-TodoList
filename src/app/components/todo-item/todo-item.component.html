@@ -1,0 +1,6 @@
+<li class="text-white m-4" *ngIf="todo">
+  <h3>{{todo.title}}</h3>
+  <p class="m-0">{{todo.content}}</p>
+  <input type="checkbox" [checked]="todo.isCompleted" (change)="onToggleTodoComplete(todo)">
+  <button class="btn btn-danger" (click)="onDeleteTodo(todo)" >Delete Todo</button>
+</li>

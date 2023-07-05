@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ButtonCapacityComponent } from './button-capacity.component';
+import { FormTodoComponent } from './form-todo.component';
 
-describe('ButtonCapacityComponent', () => {
-  let component: ButtonCapacityComponent;
-  let fixture: ComponentFixture<ButtonCapacityComponent>;
+describe('FormTodoComponent', () => {
+  let component: FormTodoComponent;
+  let fixture: ComponentFixture<FormTodoComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ ButtonCapacityComponent ]
+      declarations: [ FormTodoComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(ButtonCapacityComponent);
+    fixture = TestBed.createComponent(FormTodoComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
